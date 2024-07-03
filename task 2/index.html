@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="MyPic.jpg" alt="Your Photo" class="profile-img">
+        <h1>Karabo Kotli Diphoko</h1>
+        <p>Web Developer | Designer | MR</p>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm Karabo Diphoko! Currently, I'm diving deep into my Honours in Computer Sciences at the University of Limpopo. I'm a tech enthusiast with a knack for computer networks and advanced databases. My journey began with mastering operating systems during my undergrad, and now, I'm passionate about coding, crafting stunning websites, and unraveling data mysteries. Let's create something amazing together!
+        </p>
+    </section>
+    
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title</h3>
+            <p>Description of the project.</p>
+            <a href="project-link">View Project</a>
+        </div>
+        <!-- Repeat the above block for more projects -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.ts"></script>
+</body>
+</html>
